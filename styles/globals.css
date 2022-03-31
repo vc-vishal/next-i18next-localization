@@ -1,0 +1,41 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: block;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+h2,
+h4 {
+  color: white;
+}
+
+.default-bg {
+  background-color: green;
+}
+
+.changed-bg {
+  background-color: red;
+}
+
+.layout {
+  text-align: center;
+  padding: 50px;
+}
